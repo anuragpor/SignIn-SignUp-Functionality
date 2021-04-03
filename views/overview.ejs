@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">   <!--  inside html we have body and head-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h2{
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-size: 180%;
+                word-spacing: 2px;
+                text-align: center;
+                margin-bottom: 30px;
+                letter-spacing: 1px;
+            }
+
+            h2:after {
+                display: block;
+                height: 2px;
+                background-color: #e67e22;
+                content: " ";
+                width: 100px;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Overview</title>
+    </head>
+    <body>
+        <section class="overview">
+            <h2>Hi! there</h2>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <a href="http://127.0.0.1:3000/signup"><h2>Sign Up</h2></a>>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <a href="http://127.0.0.1:3000/signin"><h2>Login</h2></a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

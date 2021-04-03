@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">   <!--  inside html we have body and head-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- <link rel="stylesheet" type="text/css" href="C:\Users\anura\Desktop\Login SignUp\public\css\style.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\anura\Desktop\Login SignUp\vendors\normalize.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\anura\Desktop\Login SignUp\vendors\grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'> -->
+        <style>
+            .row {
+                zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+            }
+
+            .row:before,
+            .row:after {
+                content:"";
+                display:table;
+            }
+            .row:after {
+                clear:both;
+            }
+            .span-2-of-3 {
+               width: 66.13%; 
+            }
+            .span-1-of-3 {
+	            width: 32.26%; 
+            }     
+            h2{
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-size: 180%;
+                word-spacing: 2px;
+                text-align: center;
+                margin-bottom: 30px;
+                letter-spacing: 1px;
+            }
+
+            h2:after {
+                display: block;
+                height: 2px;
+                background-color: #e67e22;
+                content: " ";
+                width: 100px;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+
+            .col {
+                display: block;
+                float:left;
+                margin: 1% 0 1% 1.6%;
+            }
+
+            .col:first-child { margin-left: 0; }
+            a:link,
+            a:visited {
+                color: #e67e22;
+                text-decoration: none;
+                padding-bottom: 1px;
+                border-bottom: 1px solid #e67e22;
+                -webkit-transition: border-bottom 0.2s, color 0.2s;
+                transition: border-bottom 0.2s, color 0.2s;
+            }
+
+            a:hover,
+            a:active {
+                color: #555;
+                border-bottom: 1px solid transparent;
+            }
+
+            /* ----- BUTTONS ----- */
+         
+            input[type=submit] {
+                display: inline-block;
+                padding: 10px 30px;
+                font-weight: 300;
+                text-decoration: none;
+                border-radius: 200px;
+                -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                transition: background-color 0.2s, border 0.2s, color 0.2s;
+            }
+
+            input[type=submit] {
+                background-color: #e67e22;
+                border: 1px solid #e67e22;
+                color: #fff;
+                margin-right: 15px;
+            }
+
+
+    
+            input[type=submit]:hover,
+            input[type=submit]:active {
+                background-color: #cf6d17;
+            }
+
+            .contact-form {
+            width: 60%;
+            margin: 0 auto;
+            }
+           
+            input[type=text],
+            input[type=email],
+            input[type=password],
+            select,
+            textarea {
+                width: 100%;
+                padding: 7px;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+            input[type=checkbox] {
+                margin: 10px 5px 10px 0;
+            }
+
+            *:focus {outline: none;}
+
+        </style>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <section class="section-form">
+            <div class="row">
+                <h2>Create your account!!</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Submit!" class = "but">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            <h2>Already have a account log in here </h2>
+            <a href="http://127.0.0.1:3000/signin"><h2>Login</h2></a>
+            <script>
+
+                const buttom = document.querySelector(".but");
+                buttom.addEventListener('click', userData);
+
+                async function userData(event) {
+				event.preventDefault()
+				const name = document.getElementById('name').value;
+				const password = document.getElementById('password').value;
+                const email = document.getElementById('email').value;
+
+				const result = await fetch('/register', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify({
+                        name, email, password
+					})
+				}).then((res) => res.json())
+                console.log(result);
+				if (result.status === 'ok') {
+					// everything fine
+					alert('Success')
+				} else {
+					alert(result.error)
+				}
+			} 
+            </script>
+        </section>
+    </body>
+</html>
