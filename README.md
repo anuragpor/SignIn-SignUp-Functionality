@@ -12,4 +12,4 @@ Tech used-
 NodeJs, Express, MongoDB
 HTML, CSS, Javascript.
 
-Schema of our database is very simple it contains name, email, password in hashed form.
+Schema of our database is very simple it contains name, email and password in hashed form.
