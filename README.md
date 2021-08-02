@@ -1,7 +1,8 @@
 # Spring Hibernate Refactor
 ## Project By-
-Anurag Porwal, 
-IIT Roorkee (2nd year), Applied Mathematics Student
+- Anurag Porwal, 
+- IIT Roorkee (2nd year), 
+- Applied Mathematics
 
 ## Project for-
 
