@@ -1,20 +1,3 @@
-<!-- # SignIn-SignUp-Functionality
-The work flow of the app is as follows-
-1- Install all dependences.
-2- Run the server.js file. A message of database connected will be thrown in the console on succesfull connection of our database (ie. mongoDB)
-3- Now run http://127.0.0.1:3000/ this link on browser for overview page.
-
-For password hashing - bcrypt module is used.
-Sign Up page - /register
-Login In page - /login
-
-Tech used-
-NodeJs, Express, MongoDB
-HTML, CSS, Javascript.
-
-Schema of our database is very simple it contains name, email and password in hashed form. -->
-
-
 # Spring Hibernate Refactor
 ## Project By-
 Anurag Porwal, 
@@ -100,11 +83,11 @@ Work - Learned all these technologies in dept from this course [Spring & Hiberna
 
 List of application which I created while learning.
 
-1-DemoHibernate Application [GitHub][demohibernate]
-2-Demo SpringMVC + tomcat 9 Application [GitHub][demoMVC]
-3- Spring framework application [GitHub][springdemo]
-4- Spring annotations demo [GitHub][springdemoannotation]
-5- Spring MVC Advance Demo(using more advanced features like validation of forms and preprocessing of forms using initBinder) [GitHub][springMVC]
+- DemoHibernate Application [GitHub][demohibernate]
+- Demo SpringMVC + tomcat 9 Application [GitHub][demoMVC]
+- Spring framework application [GitHub][springdemo]
+- Spring annotations demo [GitHub][springdemoannotation]
+- Spring MVC Advance Demo(using more advanced features like validation of forms and preprocessing of forms using initBinder) [GitHub][springMVC]
 
 
 ## TASK-3
@@ -112,9 +95,9 @@ To learn logging and command exec implementation in java.
 Work - Here I first tested the code and then used it int the project. Here I also learned file handling in java also created a basic app on it.
 
 Some of my demo app for testing the code-
-1- ExecuteShellCommandRuntime test app - [GitHub][commandexec]
-2- Spring Boot Logging Application [GitHub][logger]
-3 - Read and Write Application [GitHub][ReadAndWrite]
+- ExecuteShellCommandRuntime test app - [GitHub][commandexec]
+- Spring Boot Logging Application [GitHub][logger]
+- Read and Write Application [GitHub][ReadAndWrite]
 
 # TASK-4
 Dynamic Route file, create basic jsp page, understand file locking in java, read java reflection, complete RouteData file, Constant file, entity files.
